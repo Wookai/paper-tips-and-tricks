@@ -47,6 +47,29 @@ Column 1 & Another column \\
 
 Column heads should use sentence format capitalization (see http://www.chicagomanualofstyle.org/15/ch13/ch13_sec019.html)
 
+## Bibliography
+
+### Back references
+
+For longer documents, such as a master or PhD thesis, it could be useful to have back references in the bibliography, to show where a reference was cited.
+To do so, simply add the option `backref=page` to the `hyperref` package:
+
+```
+\usepackage[backref=page]{hyperref}
+```
+
+You can customize the way the back references appear with the following commands:
+
+```
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{{\footnotesize [%
+    \ifcase #1 Not cited.%
+	\or Cited on page~#2%
+	\else Cited on pages #2%
+	\fi%
+]}}
+```
+
 ## Useful resources
 
 * Automatically capitalize your title: http://titlecapitalization.com
