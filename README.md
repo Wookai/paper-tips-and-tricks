@@ -9,9 +9,9 @@ Feel free to adapt, change, ignore, or even challenge everything we write!
 ## Typesetting your paper
 
 We list below recommendations related to typesetting your paper.
-Some tips are spectific to LaTeX, but others apply regardless of what you are using.
+Some tips are specific to LaTeX, but others apply regardless of what you are using.
 
-### Capiatlization
+### Capitalization
 
 We will refer below to two types of capitalization:
 * sentence format : The title of the nice book
