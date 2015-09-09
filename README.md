@@ -42,7 +42,7 @@ Use [booktabs](https://www.ctan.org/pkg/booktabs) to typeset your tables.
 \end{table}
 ```
 
-![Booktabs example][https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/booktabs/booktabs.png]
+![Booktabs example](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/booktabs/booktabs.png)
 
 As a rule of thumb, you should avoid using vertical lines but group the column headers if required using `\cmidrule`.
 You can also replace horizontal lines with spacing, using `\addlinespace`.
@@ -51,7 +51,7 @@ You can find more advice on table formatting here: http://www.inf.ethz.ch/person
 
 Here is a nice GIF that illustrates some of these rules:
 
-![Better table formatting][http://darkhorseanalytics.com/blog/wp-content/uploads/2014/03/ClearOffTheTableMd.gif]
+![Better table formatting](http://darkhorseanalytics.com/blog/wp-content/uploads/2014/03/ClearOffTheTableMd.gif)
 
 ### Number formatting
 
