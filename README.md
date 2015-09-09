@@ -2,13 +2,13 @@
 
 ## What is this?
 
-We gather in this repository at list of tool, best practices, tips and other guidelines we found useful/important when writing scientific papers.
+This repository contains a list of tool, best practices, tips and other guidelines we found useful/important when writing scientific papers.
 Some are a matter of style (we tend to follow the guidelines of the Chicago Manual of Style), and we are well aware that other people prefer to do differently, but we list them anyway to have a consistent guide.
 Feel free to adapt, change, ignore, or even challenge everything we write!
 
 ## Typesetting your paper
 
-We list below recommendations related to typesetting your paper.
+.
 Some tips are specific to LaTeX, but others apply regardless of what you are using.
 
 ### Capitalization
@@ -44,21 +44,62 @@ Use [booktabs](https://www.ctan.org/pkg/booktabs) to typeset your tables.
 
 ![Booktabs example](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/booktabs/booktabs.png)
 
-As a rule of thumb, you should avoid using vertical lines but group the column headers if required using `\cmidrule`.
+Avoid using vertical lines.
+Instead, if you want to group columns, do it in the headers using `\cmidrule`.
 You can also replace horizontal lines with spacing, using `\addlinespace`.
-Column heads should use sentence format capitalization (see http://www.chicagomanualofstyle.org/15/ch13/ch13_sec019.html).
-You can find more advice on table formatting here: http://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf
 
+Column heads should use sentence format capitalization (see http://www.chicagomanualofstyle.org/15/ch13/ch13_sec019.html).
+
+You can find more advice on table formatting here: http://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf
 Here is a nice GIF that illustrates some of these rules:
 
 ![Better table formatting](http://darkhorseanalytics.com/blog/wp-content/uploads/2014/03/ClearOffTheTableMd.gif)
 
 ### Number formatting
 
-Use the [siunitx](https://ctan.org/pkg/siunitx) package to format all numbers.
-For example, use `\SI{1234567}{\$}` to produce `$1 234 567`.
-You can also use it to round numbers, etc.
+Use the [siunitx](https://ctan.org/pkg/siunitx) package to format all numbers, currencies, units, etc:
+```
+\usepackage{siunitx}
+% ---
+This thing costs \SI{123456}{\$}.
+There are \num{987654} people in this room, \SI{38}{\percent} of which are male.
+```
 
+![Siunitx formatting](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/siunitx/siunitx-formatting.png)
+
+You can also use it to round numbers:
+```
+\usepackage{siunitx}
+% ---
+\sisetup{
+	round-mode = places,
+	round-precision = 3
+}%
+You can also round numbers, for example \num{1.23456}.
+```
+![Siunitx formatting](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/siunitx/siunitx-rounding.png)
+
+Finally, it can help you better align numbers in a table:
+```
+\usepackage{booktabs}
+\usepackage{siunitx}
+%---
+\begin{table}
+	\centering
+	\begin{tabular}{lS}
+		\toprule
+		Name & {Value} \\ % headers of S columns have to be in {}
+		\midrule
+		Test & 2.3456 \\
+		Blah & 34.2345 \\
+		Foo & -6.7835 \\
+		Bar & 5642.5 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Numbers alignment with \texttt{siunitx}.}
+\end{table}
+```
+![Siunitx formatting](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/siunitx/siunitx-table.png)
 
 ## Bibliography
 
