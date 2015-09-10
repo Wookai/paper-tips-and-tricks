@@ -1,23 +1,40 @@
 # Tips and Tricks for Writing Scientific Papers
 
+## Table of contents
+
+  * [Tips and Tricks for Writing Scientific Papers](#tips-and-tricks-for-writing-scientific-papers)
+    * [Table of contents](#table-of-contents)
+    * [What is this?](#what-is-this)
+  * [Typesetting your paper](#typesetting-your-paper)
+    * [Capitalization](#capitalization)
+    * [Tables](#tables)
+    * [Number formatting](#number-formatting)
+  * [Bibliography](#bibliography)
+    * [Back references](#back-references)
+  * [Creating figures](#creating-figures)
+    * [One script per data\-driven figure](#one-script-per-data-driven-figure)
+  * [Useful resources](#useful-resources)
+
 ## What is this?
 
 This repository contains a list of tool, best practices, tips and other guidelines we found useful/important when writing scientific papers.
 Some are a matter of style (we tend to follow the guidelines of the Chicago Manual of Style), and we are well aware that other people prefer to do differently, but we list them anyway to have a consistent guide.
 Feel free to adapt, change, ignore, or even challenge everything we write!
 
-## Typesetting your paper
+# Typesetting your paper
 
-.
+We list below some typesetting tips and tools to help you produce quality texts.
 Some tips are specific to LaTeX, but others apply regardless of what you are using.
 
-### Capitalization
+## Capitalization
 
 We will refer below to two types of capitalization:
 * sentence format : The title of the nice book
 * title format: The Title of the Nice Book
 
-### Tables
+Use title format for all section, subsection, etc. titles.
+
+## Tables
 
 Use [booktabs](https://www.ctan.org/pkg/booktabs) to typeset your tables.
 
@@ -55,7 +72,7 @@ Here is a nice GIF that illustrates some of these rules:
 
 ![Better table formatting](http://darkhorseanalytics.com/blog/wp-content/uploads/2014/03/ClearOffTheTableMd.gif)
 
-### Number formatting
+## Number formatting
 
 Use the [siunitx](https://ctan.org/pkg/siunitx) package to format all numbers, currencies, units, etc:
 ```
@@ -101,9 +118,10 @@ Finally, it can help you better align numbers in a table:
 ```
 ![Siunitx formatting](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/siunitx/siunitx-table.png)
 
-## Bibliography
 
-### Back references
+# Bibliography
+
+## Back references
 
 For longer documents, such as a master or PhD thesis, it could be useful to have back references in the bibliography, to show where a reference was cited.
 To do so, simply add the option `backref=page` to the `hyperref` package:
@@ -124,13 +142,15 @@ You can customize the way the back references appear with the following commands
 ]}}
 ```
 
-## Creating figures
+![Backref custom appearance](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/backref/backref.png)
+
+# Creating figures
 
 Figures are a very important part of a majority of papers: they are your way of communicating your results.
 You should always think about what you are trying to say with each figure, and make sure that there is just enough information to support your message, not more.
 For example, if you want to show patterns in 2d points (there are two clusters well separated), maybe it is not necessary to put ticks and values on the axes (the scale does not really matter)?
 
-### One script per data-driven figure
+## One script per data-driven figure
 
 Some figures are hand-made, to explain a system or give a global picture.
 Others are data-drive, i.e., visualize some data.
@@ -139,7 +159,7 @@ Similarly, if the data required to generate a figure takes more than seconds to 
 This way, you will save a lot of time when working on the plot: you won't have to wait after each small change to the figure to see its effect.
 
 
-## Useful resources
+# Useful resources
 
 * Automatically capitalize your title: http://titlecapitalization.com
 * Chicago Manual of Style: http://www.chicagomanualofstyle.org

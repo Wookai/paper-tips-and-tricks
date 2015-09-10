@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\usepackage{filecontents}
+\usepackage[backref=page]{hyperref}
+
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{{\footnotesize [%
+    \ifcase #1 Not cited.%
+    \or Cited on page~#2%
+    \else Cited on pages #2%
+    \fi%
+]}}
+
+% inline bibliography content
+\begin{filecontents}{\jobname.bib} 
+@misc{doe2006test,
+	author = "Doe, John",
+	title = "Test Article",
+	year = "2006"
+}
+\end{filecontents}
+
+\begin{document}
+
+This work~\cite{doe2006test} is great.
+
+\bibliographystyle{plain}
+\bibliography{\jobname}
+
+\end{document}

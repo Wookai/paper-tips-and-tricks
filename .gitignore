@@ -1,5 +1,11 @@
 .*.swp
+.DS_Store
+*.bbl
+*.bib
+*.blg
+*.brf
 *.aux
 *.log
+*.out
 *.pdf
 *.synctex.gz
