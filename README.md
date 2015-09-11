@@ -78,6 +78,8 @@ Here is a nice GIF that illustrates some of these rules:
 
 ![Better table formatting](http://darkhorseanalytics.com/blog/wp-content/uploads/2014/03/ClearOffTheTableMd.gif)
 
+You can find the complete example here https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/booktabs
+
 ## Number formatting
 
 Use the [siunitx](https://ctan.org/pkg/siunitx) package to format all numbers, currencies, units, etc:
@@ -124,6 +126,7 @@ Finally, it can help you better align numbers in a table:
 ```
 ![Siunitx formatting](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/siunitx/siunitx-table.png)
 
+You can find the complete example here https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/siunitx
 
 # Bibliography
 
@@ -149,6 +152,8 @@ You can customize the way the back references appear with the following commands
 ```
 
 ![Backref custom appearance](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/backref/backref.png)
+
+You can find the complete example here https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/backref
 
 # Creating figures
 
