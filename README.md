@@ -13,6 +13,9 @@
     * [Back references](#back-references)
   * [Creating figures](#creating-figures)
     * [One script per data\-driven figure](#one-script-per-data-driven-figure)
+    * [Python helper script](#python-helper-script)
+    * [Figures format](#figures-format)
+    * [Rasterize parts of the figure](#rasterize-parts-of-the-figure)
   * [Useful resources](#useful-resources)
 
 ## What is this?
