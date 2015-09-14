@@ -38,7 +38,7 @@ We will refer below to two types of capitalization:
 * sentence format : The title of the nice book
 * title format: The Title of the Nice Book
 
-Use title format for all section, subsection, etc. titles.
+Use title format for all section, subsection, etc. titles. In order to help you capitalize the right words, there's a handy website: [titlecapitalization.com](http://titlecapitalization.com/).
 
 ## Tables
 
@@ -164,7 +164,7 @@ Figures should also not be too complex: it is better to have several figures con
 
 ## One script per data-driven figure
 
-Some figures are hand-made, e.g., to explain a system or give a global picture, whereas others are data-driven, i.e., illustrae some data.
+Some figures are hand-made, e.g., to explain a system or give a global picture, whereas others are data-driven, i.e., illustrate some data.
 These data-driven figures should be scripted as much as possible: ideally, if your data changes, you should only have to run a script once to update your figure, without any other intervention (setting the view, zooming, saving/cropping the figure, etc).
 Similarly, if the data required to generate a figure takes more than seconds to be produced, you should have a first script that computes and saves the data, and a second script that plots it.
 This way, you will save a lot of time when working on the plot: you won't have to wait after each small change to the figure to see its effect.
@@ -243,6 +243,17 @@ if __name__ == '__main__':
 
 We recommend saving all figures in the `EPS` format.
 This way, you can use both `latex` and `pdflatex` to generate your documents, and enjoy beautiful vector graphics and texts.
+
+As of September 2015, on Mac OS X and with up-to-date versions of Python, Matplotlib and TeX Live, there is a loss of quality when printing figures that were directly saved as `PDF` from Matplotlib.
+It becomes clearly when printed on real paper; try it out for yourself.
+This is another reason to prefer saving Matplotlib-generated pictures in `EPS`.
+If you really want to keep only a PDF version of the figure, use the `epspdf` command line tool---the resulting PDF will be better than that directly produced by Matplotlib.
+
+For completeness, note that there is another Matplotlib backend, [PGF](http://matplotlib.org/users/pgf.html), that produces slightly superior results.
+However, as of September 2015, the resulting PDFs are twice as heavy as those obtained with the default backend and `epspdf`.
+
+Matplotlib, even when using [tight layout features](http://matplotlib.org/users/tight_layout_guide.html), adds at times too much white space in the margins.
+A nifty command-line tool to crop a PDF to its tightest bounding box `pdfcrop`.
 
 ## Rasterize parts of the figure
 
