@@ -66,6 +66,8 @@ Use title format for all section, subsection, etc. titles. In order to help you 
 
 ## Tables
 
+((complete example))[https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/booktabs]
+
 [booktabs](https://www.ctan.org/pkg/booktabs) can help you produce clean and nice-looking tables.
 
 ```
@@ -97,14 +99,14 @@ You can also replace horizontal lines with spacing, using `\addlinespace`.
 
 Column heads should use sentence-format capitalization (see http://www.chicagomanualofstyle.org/15/ch13/ch13_sec019.html).
 
-You can find more advice on table formatting here: http://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf
+You can find more advice on table formatting here: http://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf.
 Here is a nice GIF that illustrates some of these rules:
 
 ![Better table formatting](http://darkhorseanalytics.com/blog/wp-content/uploads/2014/03/ClearOffTheTableMd.gif)
 
-You can find the complete example here https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/booktabs
-
 ## Number formatting
+
+((complete example))[https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/siunitx]
 
 Use the [siunitx](https://ctan.org/pkg/siunitx) package to format all numbers, currencies, units, etc:
 ```
@@ -150,9 +152,9 @@ Finally, it can help you better align numbers in a table:
 ```
 ![Siunitx formatting](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/siunitx/siunitx-table.png)
 
-You can find the complete example here https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/siunitx
-
 # Mathematical notation
+
+((complete example))[https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/notation]
 
 When writing equations, it is helpful to have a coherent and consistent way of writing variables, vectors, matrices, etc.
 It helps the reader identifying what you are talking about and remembering the semantics of each symbol.
@@ -207,9 +209,9 @@ To write centered equations on their own lines, do not `$$...$$` (it is one of t
 It works, but gives wrong spacing.
 Use `\begin{equation}` or `\begin{align}` instead.
 
-You can find the complete example here: https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/notation.
-
 # Bibliography
+
+((complete example))[https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/backref]
 
 ## Back references
 
@@ -233,8 +235,6 @@ You can customize the way the back references appear with the following commands
 ```
 
 ![Backref custom appearance](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/backref/backref.png)
-
-You can find the complete example here: https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/backref.
 
 # Creating figures
 
