@@ -3,3 +3,4 @@ title: Paper Tips and Tricks
 email: vincent@etter.io
 description: > # this means to ignore newlines until "baseurl:"
   Tips and Tricks for Writing Scientific Papers
+baseurl: "/paper-tips-and-tricks" # the subpath of your site, e.g. /blog/
