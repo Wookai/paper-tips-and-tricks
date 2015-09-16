@@ -66,7 +66,7 @@ Use title format for all section, subsection, etc. titles. In order to help you 
 
 ## Tables
 
-((complete example)[https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/booktabs])
+[(complete example)](https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/booktabs)
 
 [booktabs](https://www.ctan.org/pkg/booktabs) can help you produce clean and nice-looking tables.
 
@@ -106,7 +106,7 @@ Here is a nice GIF that illustrates some of these rules:
 
 ## Number formatting
 
-((complete example)[https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/siunitx])
+[(complete example)](https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/siunitx)
 
 Use the [siunitx](https://ctan.org/pkg/siunitx) package to format all numbers, currencies, units, etc:
 ```
@@ -154,7 +154,7 @@ Finally, it can help you better align numbers in a table:
 
 # Mathematical notation
 
-((complete example)[https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/notation])
+[(complete example)](https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/notation)
 
 When writing equations, it is helpful to have a coherent and consistent way of writing variables, vectors, matrices, etc.
 It helps the reader identifying what you are talking about and remembering the semantics of each symbol.
@@ -213,7 +213,7 @@ Use `\begin{equation}` or `\begin{align}` instead.
 
 ## Back references
 
-((complete example)[https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/backref])
+[(complete example)](https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/backref)
 
 For longer documents, such as a master or PhD thesis, it can be useful to have back references in the bibliography, to show where a reference was cited.
 To do so, simply add the option `backref=page` to the `hyperref` package:
