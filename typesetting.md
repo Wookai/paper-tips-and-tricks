@@ -70,9 +70,9 @@ In general, avoid using vertical lines in your tables.
 Instead, if you want to group columns, do it in the headers using `\cmidrule`.
 You can also replace horizontal lines with spacing, using `\addlinespace`.
 
-Column heads should use sentence-format capitalization (see http://www.chicagomanualofstyle.org/15/ch13/ch13_sec019.html).
+Column heads should use sentence-format capitalization (see [www.chicagomanualofstyle.org/15/ch13/ch13_sec019.html](http://www.chicagomanualofstyle.org/15/ch13/ch13_sec019.html)).
 
-You can find more advice on table formatting here: http://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf.
+You can find more advice on table formatting here: [www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf](http://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf).
 Here is a nice GIF that illustrates some of these rules:
 
 ![Better table formatting](http://darkhorseanalytics.com/blog/wp-content/uploads/2014/03/ClearOffTheTableMd.gif)
@@ -124,4 +124,3 @@ Finally, it can help you better align numbers in a table:
 \end{table}
 {% endhighlight %}
 ![Siunitx formatting](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/siunitx/siunitx-table.png)
- An essential guide to LaTeX 2e usage: http://www.pirbot.com/mirrors/ctan/info/l2tabu/english/l2tabuen.pdf
