@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{fixmath}
+
+\renewcommand{\vec}[1]{\mathbold{#1}}
+\newcommand{\mat}[1]{\mathbold{#1}}
+
+\newcommand{\vx}{\vec{x}}
+
+\newcommand{\vGamma}{\mat{\Gamma}}
+\newcommand{\vX}{\mat{X}}
+
+\begin{document}
+
+We suggest the following notations:
+\begin{itemize}
+\item variable \(x\) 
+\item vector \(\vx$ with \(i\)th element \(x_i\)
+\item matrix \(\vX$ with \(i\)th column \(\vx_i\) and \((i,j)\)th element \(x_{ij}\)
+\item random variable \(X\)
+\end{itemize}
+
+Longer equations should not use \texttt{\$\$..\$\$}.
+Use the \texttt{equation} or \texttt{align} modes instead:
+\begin{equation*}
+\vx_i^T \vx_j = \vGamma.
+\end{equation*}
+
+\end{document}
