@@ -5,6 +5,9 @@ title: Creating quality figures
 order: 5
 ---
 
+* TOC
+{:toc}
+
 Figures are a very important part of a majority of papers: they are your way of communicating your results.
 You should always think about what you are trying to say with each figure, and make sure that there is just enough information to support your message, not more.
 For example, if you want to show patterns in 2d points (there are two clusters well separated), maybe it is not necessary to put ticks and values on the axes (the scale does not really matter)?

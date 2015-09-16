@@ -5,6 +5,9 @@ title: Mathematical notation
 order: 2
 ---
 
+* TOC
+{:toc}
+
 [(complete example)](https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/notation)
 
 When writing equations, it is helpful to have a coherent and consistent way of writing variables, vectors, matrices, etc.

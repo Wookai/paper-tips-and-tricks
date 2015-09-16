@@ -5,6 +5,9 @@ title: Typesetting your paper
 order: 1
 ---
 
+* TOC
+{:toc}
+
 Typesetting is the composition of text by means of arranging the types, i.e., letters and symbols.
 It is mostly a question of a aesthetics, but beautiful typography makes documents easier and more pleasant to read, helping the reader to get to the message.
 
