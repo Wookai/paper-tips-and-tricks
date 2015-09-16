@@ -197,8 +197,8 @@ You can then write more compact equations: `$\vx^T \vy = \vZ$`.
 ### Use the correct notation for columns et elements
 
 Note that you should always style the variables with respect to their type.
-For example, the $i$th element of a vector `\vx` is `x_i` and not `\vx_i` (it is a number).
-Similarly, if you have a matrix `\vX`, can call its *i*th column `\vx_i` (it is a vector, thus in bold) and one if its element `x_{ij}`, not `\vX_i` and `\vX_{ij}`.
+For example, the *i*th element of a vector `\vx` is `x_i` and not `\vx_i` (it is a number).
+Similarly, if you have a matrix `\vX`, its *i*th column is `\vx_i`, and not `\vX_i` (it is a vector, thus in bold), and one of its element is `x_{ij}`, and not `\vX_{ij}`.
 
 ## Environments
 
