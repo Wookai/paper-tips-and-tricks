@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips and Tricks for Writing Scientific Papers
+title: Tips and tricks for writing scientific papers
 ---
 
 This website contains a list of tools, best practices, tips and other guidelines we found useful/important when writing scientific papers.
