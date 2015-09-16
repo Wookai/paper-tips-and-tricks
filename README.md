@@ -6,9 +6,15 @@
     * [Table of contents](#table-of-contents)
     * [What is this?](#what-is-this)
   * [Typesetting your paper](#typesetting-your-paper)
+    * [One sentence per line](#one-sentence-per-line)
     * [Capitalization](#capitalization)
     * [Tables](#tables)
     * [Number formatting](#number-formatting)
+  * [Mathematical notation](#mathematical-notation)
+    * [Notation](#notation)
+      * [Define custom commands](#define-custom-commands)
+      * [Use the correct notation for columns et elements](#use-the-correct-notation-for-columns-et-elements)
+    * [Environments](#environments)
   * [Bibliography](#bibliography)
     * [Back references](#back-references)
   * [Creating figures](#creating-figures)
@@ -171,7 +177,7 @@ Because we often refer to variables, we suggest defining the following two comma
 ```
 \renewcommand{\vec}[1]{\mathbold{#1}}
 \newcommand{\mat}[1]{\mathbold{#1}}
-``
+```
 
 You can then use `$\vec{x}$` and `$\mat{X}$` in your document.
 If you decide to change the way you want to format matrices, you simply have to change the `\mat` command, and it will update the whole document.
