@@ -9,3 +9,6 @@
 *.out
 *.pyc
 *.synctex.gz
+.sass-cache
+_site
+

@@ -1,0 +1,20 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <nav class="site-nav">
+      <div class="trigger">
+		  {% assign pages = site.pages | sort:"order" %}
+        {% for page in pages %}
+          {% if page.shorttitle %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.shorttitle }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+
+  </div>
+
+</header>
