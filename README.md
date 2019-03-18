@@ -275,7 +275,7 @@ If possible, all figures should use the same fonts for their labels, axes, etc.
 In particular, you should not have one figure with big labels/ticks, and another with smaller ones.
 One solution to achieve this is to define the size of your figure in the script that generates it, and not rescale it in your document (e.g., do not change set the width of the figure to `\textwidth` in your LaTeX document).
 
-To have consistent figures, we recommend using a helper script, similar to our [`plot_utils.py`](https://github.com/Wookai/paper-tips-and-tricks/blob/master/src/pyton/plot_utils.py).
+To have consistent figures, we recommend using a helper script, similar to our [`plot_utils.py`](https://github.com/Wookai/paper-tips-and-tricks/blob/master/src/python/plot_utils.py).
 Using this script, you simply have to call the `figure_setup()` function to define all the sizes, then create a figure of the size you want, and save it.
 
 ```
