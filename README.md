@@ -207,7 +207,7 @@ You can also use `$...$`, but it is a TeX command and gives more obscure error m
 
 To write centered equations on their own lines, do not `$$...$$` (it is one of the [deadly sins of LaTeX use](http://www.pirbot.com/mirrors/ctan/info/l2tabu/english/l2tabuen.pdf)).
 It works, but gives wrong spacing.
-Use `\begin{equation}` or `\begin{align}` instead.
+Use `\begin{equation*}` or `\begin{align*}` instead.
 
 # Bibliography
 
