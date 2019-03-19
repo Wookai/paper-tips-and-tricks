@@ -168,7 +168,7 @@ We propose the following rules for writing math:
  * uppercase italic bold for matrices: **_X_** (`$\mathbold{X}$`)
  * uppercase italic for random variables: *X* (`$X$`)
 
-The `\mathbold` command comes from the [`fixmath`](https://www.ctan.org/pkg/fixmath) package and is similar to `\boldmath` or `\bm`, except that all symbols are in italics, event greek letters (other packages do not italicize greek letters).
+The `\mathbold` command comes from the [`fixmath`](https://www.ctan.org/pkg/fixmath) package and is similar to `\boldmath` or `\bm`, except that all symbols are in italics, even greek letters (other packages do not italicize greek letters).
 
 When adding indices or exponents to variables, make sure that you add them outside of the styling of the variable, i.e., write `$\mathbold{x}_i$` and not `$\mathbold{x_i}$`.
 
