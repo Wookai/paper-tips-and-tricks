@@ -238,10 +238,10 @@ You can customize the way the back references appear with the following commands
 
 # Creating figures
 
-Figures are a very important part of a majority of papers: they are your way of communicating your results.
-You should always think about what you are trying to say with each figure, and make sure that there is just enough information to support your message, not more.
-For example, if you want to show patterns in 2d points (there are two clusters well separated), maybe it is not necessary to put ticks and values on the axes (the scale does not really matter)?
-Figures should also not be too complex: it is better to have several figures conveying each one or two messages (method A is better than B, but converges slower) than one big messy figure.
+Figures are an important component to any paper, as they can communicate your results to the reader.
+You should consider what the information on each figure tells your reader, and that there is just enough information to support your message, not more.
+For example, if you want to show patterns in 2d points (there are two clusters well separated), it is unnecessary to put ticks and values on the axes (the scale does not really matter)?
+Figures should not be too complex. It is better to have several figures conveying one or two messages, (method A is better than B, but converges slower) than having one big messy figure.
 
 ## One script per data-driven figure
 
