@@ -344,7 +344,7 @@ The solution is to rasterize parts of your figure, i.e., to tell `matplotlib` th
 
 You can pass the `rasterized=True` keyword to most plotting fuctions in `matplotlib`.
 You can also use different layers using the `zorder` and tell `matplotlib` to rasterize all the layers below a given `zorder` using the `set_rasterization_zorder()` method of the axis.
-See [figure_rasterized_example.py](https://github.com/Wookai/paper-tips-and-tricks/blob/master/src/pyton/figure_rasterized_example.py) and http://matplotlib.org/examples/misc/rasterization_demo.html for examples of rasterization.
+See [figure_rasterized_example.py](https://github.com/Wookai/paper-tips-and-tricks/blob/master/src/python/figure_rasterized_example.py) and http://matplotlib.org/examples/misc/rasterization_demo.html for examples of rasterization.
 
 # Useful resources
 
