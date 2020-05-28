@@ -205,7 +205,7 @@ Similarly, if you have a matrix `\vX`, can call its *i*th column `\vx_i` (it is 
 Use `\(...\)` to write inline equations.
 You can also use `$...$`, but it is a TeX command and gives more obscure error messages.
 
-To write centered equations on their own lines, do not `$$...$$` (it is one of the [deadly sins of LaTeX use](http://www.pirbot.com/mirrors/ctan/info/l2tabu/english/l2tabuen.pdf)).
+To write centered equations on their own lines, do not `$$...$$` (it is one of the [deadly sins of LaTeX use](http://ctan.math.utah.edu/ctan/tex-archive/info/l2tabu/english/l2tabuen.pdf)).
 It works, but gives wrong spacing.
 Use `\begin{equation*}` or `\begin{align*}` instead.
 
@@ -351,4 +351,4 @@ See [figure_rasterized_example.py](https://github.com/Wookai/paper-tips-and-tric
 * Automatically capitalize your title: http://titlecapitalization.com
 * Chicago Manual of Style: http://www.chicagomanualofstyle.org
 * Command-line check of weasel words, passive, etc: https://github.com/devd/Academic-Writing-Check
-* An essential guide to LaTeX 2e usage: http://www.pirbot.com/mirrors/ctan/info/l2tabu/english/l2tabuen.pdf
+* An essential guide to LaTeX 2e usage: http://ctan.math.utah.edu/ctan/tex-archive/info/l2tabu/english/l2tabuen.pdf
