@@ -62,7 +62,7 @@ We will refer below to two types of capitalization:
 * sentence format : The title of the nice book
 * title format: The Title of the Nice Book
 
-Use title format for all section, subsection, etc. titles. In order to help you capitalize the right words, there's a handy website: [titlecapitalization.com](http://titlecapitalization.com/).
+Use title format for all section, subsection, etc. titles. In order to help you capitalize the right words, there's a handy website: [capitalizemytitle.com](https://capitalizemytitle.com).
 
 ## Tables
 
