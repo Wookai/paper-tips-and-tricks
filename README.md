@@ -59,6 +59,7 @@ Another benefit is that you will be able to better identify errors when only giv
 ## Capitalization
 
 We will refer below to two types of capitalization:
+
 * sentence format : The title of the nice book
 * title format: The Title of the Nice Book
 
