@@ -71,7 +71,7 @@ Use title format for all section, subsection, etc. titles. In order to help you 
 
 [booktabs](https://www.ctan.org/pkg/booktabs) can help you produce clean and nice-looking tables.
 
-```
+```latex
 \usepackage{booktabs}
 % --
 \begin{table}
@@ -110,7 +110,7 @@ Here is a nice GIF that illustrates some of these rules:
 [(complete example)](https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/siunitx)
 
 Use the [siunitx](https://ctan.org/pkg/siunitx) package to format all numbers, currencies, units, etc:
-```
+```latex
 \usepackage{siunitx}
 % ---
 This thing costs \SI{123456}{\$}.
@@ -120,7 +120,7 @@ There are \num{987654} people in this room, \SI{38}{\percent} of which are male.
 ![Siunitx formatting](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/siunitx/siunitx-formatting.png)
 
 You can also use it to round numbers:
-```
+```latex
 \usepackage{siunitx}
 % ---
 \sisetup{
@@ -132,7 +132,7 @@ You can also round numbers, for example \num{1.23456}.
 ![Siunitx formatting](https://github.com/Wookai/paper-tips-and-tricks/raw/master/examples/siunitx/siunitx-rounding.png)
 
 Finally, it can help you better align numbers in a table:
-```
+```latex
 \usepackage{booktabs}
 \usepackage{siunitx}
 %---
@@ -177,7 +177,7 @@ When adding indices or exponents to variables, make sure that you add them outsi
 
 Because we often refer to variables, we suggest defining the following two commands:
 
-```
+```latex
 \renewcommand{\vec}[1]{\mathbold{#1}}
 \newcommand{\mat}[1]{\mathbold{#1}}
 ```
@@ -188,7 +188,7 @@ If you decide to change the way you want to format matrices, you simply have to 
 We also suggest defining commands for the variables you use the most.
 For example, if you use `\vec{x}` and `\mat{X}` a lot, consider defining these commands:
 
-```
+```latex
 \newcommand{\vx}{\vec{x}}
 \newcommand{\vX}{\mat{X}}
 ```
@@ -219,13 +219,13 @@ Use `\begin{equation*}` or `\begin{align*}` instead.
 For longer documents, such as a master or PhD thesis, it can be useful to have back references in the bibliography, to show where a reference was cited.
 To do so, simply add the option `backref=page` to the `hyperref` package:
 
-```
+```latex
 \usepackage[backref=page]{hyperref}
 ```
 
 You can customize the way the back references appear with the following commands:
 
-```
+```latex
 \renewcommand*{\backref}[1]{}
 \renewcommand*{\backrefalt}[4]{{\footnotesize [%
     \ifcase #1 Not cited.%
@@ -253,7 +253,7 @@ This way, you will save a lot of time when working on the plot: you won't have t
 
 We also recommend to save the command used to generate a figure in the LaTeX file, for example as a comment above the figure, especially if the script requires arguments.
 
-```
+```latex
 \documentclass{article}
 
 \usepackage{graphicx}
@@ -279,7 +279,7 @@ One solution to achieve this is to define the size of your figure in the script 
 To have consistent figures, we recommend using a helper script, similar to our [`plot_utils.py`](https://github.com/Wookai/paper-tips-and-tricks/blob/master/src/python/plot_utils.py).
 Using this script, you simply have to call the `figure_setup()` function to define all the sizes, then create a figure of the size you want, and save it.
 
-```
+```python
 import argparse
 import matplotlib.pyplot as plt
 import numpy as np
