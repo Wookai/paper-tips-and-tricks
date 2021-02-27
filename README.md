@@ -349,7 +349,7 @@ See [figure_rasterized_example.py](https://github.com/Wookai/paper-tips-and-tric
 
 # Useful resources
 
-* Automatically capitalize your title: http://titlecapitalization.com
+* Automatically capitalize your title: https://capitalizemytitle.com
 * Chicago Manual of Style: http://www.chicagomanualofstyle.org
 * Command-line check of weasel words, passive, etc: https://github.com/devd/Academic-Writing-Check
 * An essential guide to LaTeX 2e usage: http://ctan.math.utah.edu/ctan/tex-archive/info/l2tabu/english/l2tabuen.pdf
