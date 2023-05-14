@@ -65,6 +65,16 @@ We will refer below to two types of capitalization:
 
 Use title format for all section, subsection, etc. titles. In order to help you capitalize the right words, there's a handy website: [capitalizemytitle.com](https://capitalizemytitle.com).
 
+## Maintaining name of the objects and its reference on the same line
+
+Sometimes, the name of an object (such as Figure, Table, Graph, or Algorithm) and its reference number are split into two lines. For instance, the name of the object may be on one line, while the reference number appears on the next line. To ensure that LaTeX keeps both the name of the object and its reference on the same line, you can use the character "~" between the object and the reference.
+
+By using the tilde character "~" in this way, you can avoid awkward line breaks and maintain a consistent formatting for your object names and reference numbers in LaTeX documents.
+
+```latex
+Figure~\ref{fig:example} displays that the project ...
+```
+
 ## Tables
 
 [(complete example)](https://github.com/Wookai/paper-tips-and-tricks/tree/master/examples/booktabs)
