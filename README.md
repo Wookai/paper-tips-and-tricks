@@ -6,6 +6,7 @@
     * [Table of contents](#table-of-contents)
     * [What is this?](#what-is-this)
   * [Typesetting your paper](#typesetting-your-paper)
+    * [Name and reference on the same line](#maintaining-name-of-the-objects-and-its-reference-on-the-same-line)
     * [One sentence per line](#one-sentence-per-line)
     * [Capitalization](#capitalization)
     * [Tables](#tables)
