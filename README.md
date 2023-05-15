@@ -92,7 +92,13 @@ To ensure that you don't forget to use the tilde character, you can simplify the
 \newcommand{\refalg}[1]{Algorithm~\ref{#1}}
 ```
 
-And, in your text, instead of writing "Figure~\ref{fig:example}" simple type:
+And, in your text, instead of writing 
+
+```latex
+Figure~\ref{fig:example}
+```
+
+simple type
 
 ```latex
 \reffig["fig:example"]
