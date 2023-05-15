@@ -67,12 +67,35 @@ Use title format for all section, subsection, etc. titles. In order to help you 
 
 ## Maintaining name of the objects and its reference on the same line
 
-Sometimes, the name of an object (such as Figure, Table, Graph, or Algorithm) and its reference number are split into two lines. For instance, the name of the object may be on one line, while the reference number appears on the next line. To ensure that LaTeX keeps both the name of the object and its reference on the same line, you can use the character "~" between the object and the reference.
+Sometimes, the name of an object (such as Figure, Table, Graph, or Algorithm) and its reference number are split into two lines. 
+
+For instance, the name of the object may be on one line, while the reference number appears on the next line. 
+
+To ensure that LaTeX keeps both the name of the object and its reference on the same line, you can use the character "~" between the object and the reference.
 
 By using the tilde character "~" in this way, you can avoid awkward line breaks and maintain a consistent formatting for your object names and reference numbers in LaTeX documents.
 
 ```latex
 Figure~\ref{fig:example} displays that the project ...
+```
+
+To ensure that you don't forget to use the tilde character, you can simplify the process by creating custom commands for automation. Here's an example:
+
+
+```latex
+\newcommand{\refchap}[1]{Chapter~\ref{#1}}
+\newcommand{\reffig}[1]{Figure~\ref{#1}}
+\newcommand{\refsec}[1]{Section~\ref{#1}}
+\newcommand{\reftab}[1]{Table~\ref{#1}}
+\newcommand{\refeq}[1]{Equation~\ref{#1}}
+\newcommand{\refapp}[1]{Appendix~\ref{#1}}
+\newcommand{\refalg}[1]{Algorithm~\ref{#1}}
+```
+
+And, in your text, instead of writing "Figure~\ref{fig:example}" simple type:
+
+```latex
+\reffig["fig:example"]
 ```
 
 ## Tables
