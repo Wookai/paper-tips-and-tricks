@@ -66,7 +66,7 @@ We will refer below to two types of capitalization:
 
 Use title format for all section, subsection, etc. titles. In order to help you capitalize the right words, there's a handy website: [capitalizemytitle.com](https://capitalizemytitle.com).
 
-## Maintaining name of the objects and its reference on the same line
+## Keep references whole
 
 Sometimes, the name of an object (such as Figure, Table, Graph, or Algorithm) and its reference number are split into two lines.
 For instance, the name of the object may be on one line, while the reference number appears on the next line. 
