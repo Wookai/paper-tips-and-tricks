@@ -91,7 +91,7 @@ To ensure that you don't forget to use the tilde character, you can simplify the
 \newcommand{\reftab}[1]{Table~\ref{#1}}
 ```
 
-And, in your text, instead of writing 
+Once these commands are defined, instead of writing:
 
 ```latex
 Figure~\ref{fig:example}
