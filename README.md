@@ -100,7 +100,7 @@ Figure~\ref{fig:example}
 simple type
 
 ```latex
-\reffig["fig:example"]
+\reffig{fig:example}
 ```
 
 ## Tables
