@@ -84,13 +84,13 @@ To ensure that you don't forget to use the tilde character, you can simplify the
 
 
 ```latex
+\newcommand{\refalg}[1]{Algorithm~\ref{#1}}
+\newcommand{\refapp}[1]{Appendix~\ref{#1}}
 \newcommand{\refchap}[1]{Chapter~\ref{#1}}
+\newcommand{\refeq}[1]{Equation~\ref{#1}}
 \newcommand{\reffig}[1]{Figure~\ref{#1}}
 \newcommand{\refsec}[1]{Section~\ref{#1}}
 \newcommand{\reftab}[1]{Table~\ref{#1}}
-\newcommand{\refeq}[1]{Equation~\ref{#1}}
-\newcommand{\refapp}[1]{Appendix~\ref{#1}}
-\newcommand{\refalg}[1]{Algorithm~\ref{#1}}
 ```
 
 And, in your text, instead of writing 
