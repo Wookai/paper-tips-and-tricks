@@ -8,6 +8,7 @@
   * [Typesetting your paper](#typesetting-your-paper)
     * [One sentence per line](#one-sentence-per-line)
     * [Capitalization](#capitalization)
+    * [Keep references whole](#keep-references-whole)
     * [Tables](#tables)
     * [Number formatting](#number-formatting)
   * [Mathematical notation](#mathematical-notation)
@@ -64,6 +65,43 @@ We will refer below to two types of capitalization:
 * title format: The Title of the Nice Book
 
 Use title format for all section, subsection, etc. titles. In order to help you capitalize the right words, there's a handy website: [capitalizemytitle.com](https://capitalizemytitle.com).
+
+## Keep references whole
+
+Sometimes, the name of an object (such as Figure, Table, Graph, or Algorithm) and its reference number are split into two lines.
+For instance, the name of the object may be on one line, while the reference number appears on the next line. 
+
+To ensure that LaTeX keeps both the name of the object and its reference on the same line, you can use the character `~` between the object and the reference.
+By using the tilde character `~` in this way, you can avoid awkward line breaks and maintain a consistent formatting for your object names and reference numbers in LaTeX documents.
+
+```latex
+Figure~\ref{fig:example} displays that the project ...
+```
+
+To ensure that you don't forget to use the tilde character, you can simplify the process by creating custom commands for automation. Here's an example:
+
+
+```latex
+\newcommand{\refalg}[1]{Algorithm~\ref{#1}}
+\newcommand{\refapp}[1]{Appendix~\ref{#1}}
+\newcommand{\refchap}[1]{Chapter~\ref{#1}}
+\newcommand{\refeq}[1]{Equation~\ref{#1}}
+\newcommand{\reffig}[1]{Figure~\ref{#1}}
+\newcommand{\refsec}[1]{Section~\ref{#1}}
+\newcommand{\reftab}[1]{Table~\ref{#1}}
+```
+
+Once these commands are defined, instead of writing:
+
+```latex
+Figure~\ref{fig:example}
+```
+
+simply type:
+
+```latex
+\reffig{fig:example}
+```
 
 ## Tables
 
