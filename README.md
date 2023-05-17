@@ -97,7 +97,7 @@ And, in your text, instead of writing
 Figure~\ref{fig:example}
 ```
 
-simple type
+simply type:
 
 ```latex
 \reffig{fig:example}
